@@ -3,7 +3,7 @@ module OmniAuth
     class PAM
       include OmniAuth::Strategy
 
-      option :name, 'pam'
+      option :name, 'PAM'
       option :fields, [:username]
       option :uid_field, :username
       # if provided, info.email is build using uid@email_domain
